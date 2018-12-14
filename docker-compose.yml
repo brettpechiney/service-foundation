@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  cockroach:
+    build:
+      context: docker/cockroach
+      dockerfile: Dockerfile
+    environment:
+      - COCKROACH_DB=ishi
+    ports:
+      - "8080:8080"
+      - "26257:26257"

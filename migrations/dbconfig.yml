@@ -1,0 +1,4 @@
+development:
+  dialect: postgres
+  datasource: postgresql://root@localhost:26257/workout?sslmode=disable
+  dir: .

@@ -1,0 +1,20 @@
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Editor config
+.idea
+
+# Folders
+.cockroach-data
+.tools
+
+# Scripts and docs
+*.bat
+*.sh
+*.md
+
+# Git
+.git
+.gitignore
+.gitattributes
